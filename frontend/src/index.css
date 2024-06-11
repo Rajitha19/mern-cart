@@ -45,3 +45,6 @@ main {
 .rating span {
   color: gold;
 }
+.img-large {
+  height: 100vh;
+}
