@@ -48,3 +48,7 @@ main {
 .img-large {
   height: 100vh;
 }
+.img-thumbnail {
+  height: 100px;
+  width: 120px;
+}
