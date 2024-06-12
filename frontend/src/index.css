@@ -52,3 +52,6 @@ main {
   height: 100px;
   width: 120px;
 }
+.small-container {
+  max-width: 600px;
+}
