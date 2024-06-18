@@ -1,16 +1,16 @@
 import { BrowserRouter, Link, Route, Routes } from 'react-router-dom';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import HomeScreen from './screens/HomeScreen';
-import ProductScreen from './screens/ProductScreen';
+import HomeScreen from './pages/HomePagen';
+import ProductScreen from './pages/ProductPage';
 import { Badge, Container, Nav, Navbar, NavDropdown } from 'react-bootstrap';
 import { LinkContainer } from 'react-router-bootstrap';
 import { useContext } from 'react';
 import { Store } from './Store';
-import CartScreen from './screens/CartScreen';
-import SigninScreen from './screens/SigninScreen';
-import ShippingAddressScreen from './screens/ShippingAddressScreen';
-import SignupScreen from './screens/SignupScreen';
+import CartScreen from './pages/CartPage';
+import SigninScreen from './pages/SigninPage';
+import ShippingAddressScreen from './pages/ShippingAddressPage';
+import SignupScreen from './pages/SignupPage';
 
 function App() {
   const { state, dispatch: ctxDispatch } = useContext(Store);
