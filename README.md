@@ -6,11 +6,12 @@ This project implements a full-stack e-commerce application using the MERN (Mong
 
 Here are some screenshots showcasing the appearance of the application:
 
+*Home Page*
 ![Image 1](./frontend/public/images/image1.jpg)
-*Caption for Image 1*
 
+*Cart Page*
 ![Image 2](./frontend/public/images/image2.png)
-*Caption for Image 2*
 
+*Sign In Page*
 ![Image 3](./frontend/public/images/image3.png)
-*Caption for Image 3*
+
