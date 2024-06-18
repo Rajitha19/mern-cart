@@ -6,11 +6,11 @@ This project implements a full-stack e-commerce application using the MERN (Mong
 
 Here are some screenshots showcasing the appearance of the application:
 
-![Image 1](./frontend/images/image1.jpg)
+![Image 1](./frontend/public/images/image1.jpg)
 *Caption for Image 1*
 
-![Image 2](./images/image2.png)
+![Image 2](./frontend/public/images/image2.png)
 *Caption for Image 2*
 
-![Image 3](./images/image3.png)
+![Image 3](./frontend/public/images/image3.png)
 *Caption for Image 3*
