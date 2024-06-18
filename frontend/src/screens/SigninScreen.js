@@ -1,3 +1,4 @@
+// SigninScreen.js
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import Container from 'react-bootstrap/Container';
 import Form from 'react-bootstrap/Form';
@@ -6,6 +7,8 @@ import axios from 'axios';
 import { useContext, useEffect, useState } from 'react';
 import { Store } from '../Store';
 import { toast } from 'react-toastify';
+import { FaShoppingBag } from 'react-icons/fa';
+// import './SigninScreen.css';
 
 export default function SigninScreen() {
   const navigate = useNavigate();
@@ -43,10 +46,13 @@ export default function SigninScreen() {
   return (
     <Container className="small-container">
       <title>Sign In</title>
+      <h1 className="my-3">
+        <FaShoppingBag />
+      </h1>
       <h1 className="my-3">Sign In</h1>
       <Form onSubmit={submitHandler}>
         <Form.Group className="mb-3" controlId="email">
-          <Form.Label>Email</Form.Label>
+          <Form.Label className="form-label">Email</Form.Label>
           <Form.Control
             type="email"
             required
@@ -54,7 +60,7 @@ export default function SigninScreen() {
           />
         </Form.Group>
         <Form.Group className="mb-3" controlId="password">
-          <Form.Label>Password</Form.Label>
+          <Form.Label className="form-label">Password</Form.Label>
           <Form.Control
             type="password"
             required
@@ -62,7 +68,9 @@ export default function SigninScreen() {
           />
         </Form.Group>
         <div className="mb-3">
-          <Button type="submit">Sign In</Button>
+          <Button type="submit" className="btn-primary">
+            Sign In
+          </Button>
         </div>
         <div className="mb-3">
           New customer?{' '}

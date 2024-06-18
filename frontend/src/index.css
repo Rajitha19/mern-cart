@@ -13,7 +13,7 @@ body {
       rgba(255, 255, 255, 0.7),
       rgba(255, 255, 255, 0.7)
     ),
-    url('C:\Users\User\Desktop\mern-cart\frontend\public\images\back3.jpg')
+    url('C:\Users\User\Desktop\mern-cart\frontend\public\images\back4.jpg')
       no-repeat center center fixed;
   background-size: cover;
   font-family: Arial, sans-serif;
@@ -38,10 +38,6 @@ main {
   justify-content: center;
 }
 
-/* .product {
-  border: 1px #404040 solid;
-  margin: 1rem;
-} */
 .product img {
   width: 100%;
   max-width: 400px;
@@ -68,8 +64,8 @@ main {
   color: grey;
 }
 .checkout-steps > div.active {
-  border-bottom: 0.2rem solid orange;
-  color: orange;
+  border-bottom: 0.2rem solid green;
+  color: green;
 }
 
 /* new */
@@ -112,4 +108,52 @@ main {
 
 .btn-primary:hover {
   background-color: #0056b3;
+}
+
+.small-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+}
+
+h1.my-3 {
+  color: #333333;
+  text-align: center;
+}
+
+.form-label {
+  font-weight: 600;
+}
+
+.form-control {
+  border-radius: 5px;
+  box-shadow: none !important;
+  border-color: #ced4da;
+}
+
+.form-control:focus {
+  border-color: #80bdff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.25);
+}
+
+.btn-primary {
+  width: 100%;
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
+a {
+  color: #007bff;
+}
+
+a:hover {
+  color: #0056b3;
 }

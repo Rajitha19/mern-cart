@@ -6,6 +6,7 @@ import axios from 'axios';
 import { useContext, useEffect, useState } from 'react';
 import { Store } from '../Store';
 import { toast } from 'react-toastify';
+import { FaShoppingBag } from 'react-icons/fa';
 
 export default function SignupScreen() {
   const navigate = useNavigate();
@@ -50,6 +51,9 @@ export default function SignupScreen() {
   return (
     <Container className="small-container">
       <title>Sign Up</title>
+      <h1 className="my-3">
+        <FaShoppingBag />
+      </h1>
       <h1 className="my-3">Sign Up</h1>
       <Form onSubmit={submitHandler}>
         <Form.Group className="mb-3" controlId="name">
@@ -85,7 +89,9 @@ export default function SignupScreen() {
         </div>
         <div className="mb-3">
           Already have an acoount?{' '}
-          <Link to={`/signin?redirect=${redirect}`}>Create your account</Link>
+          <Link to={`/signin?redirect=${redirect}`}>
+            Sign in to the account
+          </Link>
         </div>
       </Form>
     </Container>

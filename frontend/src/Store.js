@@ -58,6 +58,11 @@ function reducer(state, action) {
           shippingAddress: action.payload,
         },
       };
+    case 'OUT_OF_STOCK':
+      return {
+        ...state,
+        outOfStockItems: [...state.outOfStockItems, action.payload],
+      };
     default:
       return state;
   }
